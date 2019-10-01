@@ -12,13 +12,13 @@ Utilizando os mapas de karnaugh do laboratório de ELODIG, escrever um código e
 
 Pegar um bit da entrada:
 
-'''
+```
 char A = in&0x01?1:0;
-'''
+```
 
 Validação de um segmento:
 
-'''
+```
 a = B|!A&!C|B&C^A&C|D;
-'''
+```
 
